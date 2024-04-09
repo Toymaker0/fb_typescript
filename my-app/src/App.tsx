@@ -1,10 +1,12 @@
+import { Fragment } from "react/jsx-runtime";
+import AppRouter from "./Route/AppRouter";
 
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+  <Fragment>
+    <AppRouter/>
+  </Fragment>
   );
 }
 
